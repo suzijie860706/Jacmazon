@@ -9,7 +9,6 @@ import { nextTick } from 'process';
   standalone: true,
   imports: [RouterLink],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css',
 })
 export class HomeComponent {
   private productsService = inject(ProductsService);
